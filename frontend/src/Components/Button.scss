@@ -1,0 +1,22 @@
+$primary: rgb(233, 115, 36);
+
+.Button {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  border-bottom: 3px solid #d35400;
+  border-radius: 5px;
+  background-color: $primary;
+  padding: 10px;
+  display: inline-block;
+  transition: 0.1s all;
+  min-width: 80px;
+
+  &:active {
+    transform: translateY(3px);
+    border-bottom-width: 0px;
+  }
+  &:hover {
+    background-color: rgb(230, 126, 34);
+  }
+}
